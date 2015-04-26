@@ -1,0 +1,65 @@
+
+.top-level-container {
+    width: 98%;
+    display: table;
+    position: relative;
+}
+
+/** Canvas CSS */
+
+.canvas-container {
+    display: table-cell;
+    position: relative;
+    background-color: #f2f2f2;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/** Pallette CSS */
+
+.pallette-container {
+    display: table-cell;
+    float: left;
+    width: 100%;
+}
+
+.panel-container {
+    display: block;
+}
+
+.panel-element {
+    opacity: 0.75;
+    display: block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: auto;
+    z-index: 1200;
+}
+
+.panel-element:hover {
+    opacity: 1.0;
+}
+
+.panel-element span.label {
+    padding: 5px;
+    font-size: 15px;
+    color: #636363;
+}
+
+.transformers {
+    background-color: #d6fcb0;
+}
+
+.transformers img.resize {
+    height: auto;
+}
+
+.endpoints {
+    background-color: #c4f6ff;
+}
