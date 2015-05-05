@@ -92,4 +92,3 @@ IntegrationDesigner.Pallette.prototype.render = function() {
         this.container_.append(panel);
     }
 };
-
