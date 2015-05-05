@@ -25,7 +25,7 @@ IntegrationDesigner.Main = function() {
      * @type {IntegrationDesigner.Pallette}
      */
     this.pallette_ = new IntegrationDesigner.Pallette(this.containers_.palletteContainer);
-}
+};
 
 IntegrationDesigner.Main.prototype.render = function() {
     this.pallette_.render();
